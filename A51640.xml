@@ -1,0 +1,857 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Musa præsica the London poem, or, An humble oblation on the sacred tomb of our Late Gracious Monarch King Charles the II, of ever Blessed and Eternal Memory / by a loyal apprentice of the honourable city of London.</title>
+            <author>Loyal apprentice of the honourable city of London.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1685</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 32 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A51640</idno>
+            <idno type="STC">Wing M3129</idno>
+            <idno type="STC">ESTC R23131</idno>
+            <idno type="EEBO-CITATION">12493183</idno>
+            <idno type="OCLC">ocm 12493183</idno>
+            <idno type="VID">62431</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A51640)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 62431)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 769:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Musa præsica the London poem, or, An humble oblation on the sacred tomb of our Late Gracious Monarch King Charles the II, of ever Blessed and Eternal Memory / by a loyal apprentice of the honourable city of London.</title>
+                  <author>Loyal apprentice of the honourable city of London.</author>
+               </titleStmt>
+               <extent>[2], 16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for T.M. and John Holford ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1685.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Charles --  II, --  King of England, 1630-1685 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-11</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:62431:1" rendition="simple:additions"/>
+            <p>Muſa Praefica.</p>
+            <p>THE LONDON POEM, OR <hi>An Humble Oblation</hi> On the Sacred Tomb Of our late Gracious Monarch King Charles the II. Of ever Bleſſed and Eternal Memory.</p>
+            <p>By a Loyal Apprentice of the Honourable City of <hi>London.</hi>
+            </p>
+            <q>
+               <l>—Quo Numine laeſo,</l>
+               <l>Quidve dolens Rector Coeli Tot volvere Caſus,</l>
+               <l>Inſignem pietate Virum, tot adire Labores</l>
+               <l>Impulerit, Tantane animis Coeleſtibus Ira?</l>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>T. M.</hi> and <hi>John Holford,</hi> and are to be ſold by the Bookſellers of <hi>London.</hi> 1685.</p>
+         </div>
+      </front>
+      <body>
+         <div type="elegy">
+            <pb facs="tcp:62431:2"/>
+            <pb n="1" facs="tcp:62431:2"/>
+            <head>A FUNERAL-POEM ON THE DEATH OF King Charles II. OF Bleſſed Memory.</head>
+            <lg>
+               <l>I'ts done, what Heav'n for many Years deſign'd,</l>
+               <l>Unknown to the great Race of Human kind;</l>
+               <l>In Fates myſterious Chronicle enroll'd;</l>
+               <l>And ſo abſconded from the lower World.</l>
+               <l>The Gods, the utmoſt of their Pow'r have ſhown;</l>
+               <l>Their dark Decree has ſhoke the trembling Throne,</l>
+               <l>
+                  <hi>CHARLES</hi> the Illuſtrious, Great, is ſnatcht away,</l>
+               <l>And to the gaping Grave become the Conquer'd Prey.</l>
+            </lg>
+            <lg>
+               <l>Forgive Thou awful Shade my Boldn'd Muſe,</l>
+               <l>Preſuming this Tranſcendent Theme to chuſe;</l>
+               <l>Forgive the Accents of my humbler Strain,</l>
+               <l>Which in Unhallow'd Diſticks dares profane</l>
+               <l>That Name, which all poſterity ſhall know:</l>
+               <l>Great Spirit thou'rt Gracious, or thou once wert ſo.</l>
+            </lg>
+            <lg>
+               <l>Gifts and Oblations Heaven-born thou'l have none,</l>
+               <l>Nor muſt Divine Rites to Thee now be ſhown;</l>
+               <l>We'l not erect new Altars to thy Shrine,</l>
+               <l>Nor dare Inſtall Thee with the Pow'rs Divine;</l>
+               <l>That too Officious Duty wou'd blaſpheme,</l>
+               <l>And blemiſh with our Piety, thy Name;</l>
+               <l>But ſtill our Zealous Love ſhall be the more,</l>
+               <l>And we will bleſs thy worth, tho not adore.</l>
+            </lg>
+            <pb n="2" facs="tcp:62431:3"/>
+            <lg>
+               <l>Which of the mighty Pen-men ſhall I chuſe</l>
+               <l>To aid the Genius of my Lab'ring Muſe;</l>
+               <l>Which of the happy Bards ſhall fan the Fire,</l>
+               <l>And my ambitious Glowing Breaſt inſpire;</l>
+               <l>Whilſt I with ruder Hands my Offring bring</l>
+               <l>To the Immortal Mem'ry of my King;</l>
+               <l>And of his Deathleſs Name, &amp; God-like Virtues ſing?</l>
+               <l>Ye ſofter Female Beings, if there be</l>
+               <l>Concernment in your Fancy'd Deities,</l>
+               <l>On my bold Province now divinely ſhine,</l>
+               <l>And manifeſt the pow'r of your renowned Nine.</l>
+            </lg>
+            <lg>
+               <l>But ah! why do I vainly thus require</l>
+               <l>The faint aſſiſtance of that eaſie Quire;</l>
+               <l>Too weak the Inſpiration, and the Flame,</l>
+               <l>For the Ennobl'd Merit of the Theme,</l>
+               <l>For the vaſt Elogies of <hi>CHARLES</hi> his name.</l>
+            </lg>
+            <lg>
+               <l>But thou far more Heroick ſhade return</l>
+               <l>From the dull darkſome Manſion of thy Urn,</l>
+               <l>Thou once who in Divineſt Numbers taught,</l>
+               <l>And ſang as bravely as thy Heroes fought;</l>
+               <l>Let <hi>CHARLES</hi> our now departed worthy dwell</l>
+               <l>In thy Prodigious, Noble, Chronicle,</l>
+               <l>(If any faith in Tranſmigration be,)</l>
+               <l>Or now tranſmit thy ſacred Spirit to me;</l>
+            </lg>
+            <lg>
+               <l>Aid me the Royal wonders to rehearſe</l>
+               <l>In laſting, and unbounded verſe,</l>
+               <l>Sum the repeated Marvels of his Reign,</l>
+               <l>Whom Heav'n, kind Heav'n eſpouſing did Maintain:</l>
+               <l>Tell me the worth of that Illuſtrious man,</l>
+               <l>Who through a long continued ſeries ran</l>
+               <l>Of troubles, yet appear'd ſo great, ſo brave</l>
+               <l>From the firſt blooming to the final Grave.</l>
+            </lg>
+            <lg>
+               <l>Tears are not all the due we'l pay to thee,</l>
+               <l>Thou ſacred Image of the Deity:</l>
+               <l>Nor will we only the vaſt loſs bemoan,</l>
+               <l>With a retired melancholy groan;</l>
+               <l>But to our late poſterity we'l ſhow,</l>
+               <l>And they ſhall all the wondrous Circle know:</l>
+               <pb n="3" facs="tcp:62431:3"/>
+               <l>The Theme, and the delight, of future days,</l>
+               <l>Which with united Ioys ſhall Eccho forth thy praiſe.</l>
+            </lg>
+            <lg>
+               <l>Ye Gods! why did ye Summons to begone,</l>
+               <l>The conſtant Guardian of the peaceful Throne?</l>
+               <l>Why was your thoughtful vengeance ſo ſevere</l>
+               <l>Unto his Royal perſon here?</l>
+               <l>What hidden grudge uſurpt your minds above,</l>
+               <l>Your Great Vicegerent to remove?</l>
+               <l>Why was he ſnatcht ſo ſoon away?</l>
+               <l>As if but fraim'd of Common Clay?</l>
+               <l>Monarchs undoubted Charters ſhould poſſeſs,</l>
+               <l>To limit their own boundleſs happineſs.</l>
+               <l>Or ſhould ſome ſacred Title have,</l>
+               <l>To Triumph o're the fury of the Grave;</l>
+               <l>But ſince Immortal Births you do deny,</l>
+               <l>Even Kings are only born to reign and die.</l>
+            </lg>
+            <lg>
+               <l>Oh! cou'd he not have ſtretcht the narrow Span</l>
+               <l>And liv'd the double age of Man?</l>
+               <l>Who wou'd not have ſuſtain'd the willing Doom,</l>
+               <l>And fill'd the Empty ſpaces of his Room,</l>
+               <l>And undergone the ſcandal of a Tomb?</l>
+               <l>Why were ye not appeas'd with a Plebeian Prey,</l>
+               <l>But ſnatcht the Sovereign of the Iſle away?</l>
+               <l>I cou'd of the ſeverity complain,</l>
+               <l>And urge my paſſion to ſo high a ſtrain,</l>
+               <l>Ev'n at your ſacred beings to let fly,</l>
+               <l>Blaſpheme your Arbitrary Deities,</l>
+               <l>Since with the Royal Victim you begin,</l>
+               <l>And yet my zeal would expiate the ſin.</l>
+            </lg>
+            <lg>
+               <l>Were Kings ordain'd but for ſuch vulgar ends,</l>
+               <l>And do they on ſo ſlender Lines depend,</l>
+               <l>To finiſh all the drugery of State,</l>
+               <l>And then ſubmit to common Fate;</l>
+               <l>To manage the Great buſineſs of the World,</l>
+               <l>And from the regal Theatre be hurld,</l>
+               <l>T' appear and act upon the noiſy Stage,</l>
+               <l>Then make their ſudden exit from the age,</l>
+               <pb n="4" facs="tcp:62431:4"/>
+               <l>And all but for a ſpeculative fame</l>
+               <l>For the inglorious nothing of a name.</l>
+            </lg>
+            <lg>
+               <l>So the victorious Caeſar liv'd and dy'd,</l>
+               <l>With Nations ſhelter'd from his awful ſide,</l>
+               <l>When he the glorious Race had nobly run,</l>
+               <l>And finiſht all the triumphs he begun.</l>
+            </lg>
+            <lg>
+               <l>What real Eſſence is there in a Crown,</l>
+               <l>When Monarchs thus are tumbl'd down?</l>
+               <l>Nor can their ſhining grandure ſave,</l>
+               <l>Them rowling to the diſmal grave.</l>
+            </lg>
+            <lg>
+               <l>Ye Gods! ah! why! cou'd ye exempt not ſome,</l>
+               <l>From th' univerſal deluge of the Doom,</l>
+               <l>Ah why! cou'd not your providence prefer</l>
+               <l>Some to a laſting death leſs Calendar;</l>
+               <l>Why ſuch injunctions do you lay</l>
+               <l>On Kings that bear Imperial ſway?</l>
+            </lg>
+            <lg>
+               <l>Muſt <hi>CHARLES</hi> the joy of all the univerſe,</l>
+               <l>Be fetter'd in a ſolitary Herſe?</l>
+               <l>And after all the mighty Circles ran,</l>
+               <l>Appear at length to be but man?</l>
+            </lg>
+            <lg>
+               <l>All he poſſeſt that's good, and great,</l>
+               <l>If that cou'd claim ſupremacy of fate,</l>
+               <l>All vertues in his royal Breaſt,</l>
+               <l>Like Gemms within a Quarry reſt,</l>
+               <l>No borrow'd Beams adorn'd his Soul</l>
+               <l>As where the leſſer Luminaries Rowle,</l>
+               <l>But in him they were perfect all,</l>
+               <l>Glorious, and Bright, and Natural,</l>
+               <l>Like days Bright Lord which does diſpence,</l>
+               <l>O're all an univerſal Influence.</l>
+               <l>What Heav'n hath ſparingly allow'd mankind,</l>
+               <l>Was doll'd-in great to his great mind,</l>
+               <l>And with embelliſht luſtre in him ſhin'd,</l>
+               <l>The Gods by one conſent cou'd do no more,</l>
+               <l>But laviſht a vaſt Largeſs of their ſtore,</l>
+               <l>And made th' Impoveriſht Heav'ns poor:</l>
+            </lg>
+            <pb n="5" facs="tcp:62431:4"/>
+            <lg>
+               <l>Yet after all, this mighty Prince</l>
+               <l>Is ſnatcht and rifled from us hence,</l>
+               <l>Left void his great fore-fathers Throne below,</l>
+               <l>And to an endleſs wide Eternity does go.</l>
+            </lg>
+            <lg>
+               <l>Look down unbody'd <hi>Hero,</hi> ſee</l>
+               <l>How naked and expos'd we lie,</l>
+               <l>To <hi>Chaos</hi> ev'n a ready prey,</l>
+               <l>Now thy Great Guardian Soul is took away.</l>
+            </lg>
+            <lg>
+               <l>We'l not forget how once thou god-like ſate,</l>
+               <l>And didſt the noble work of Fate,</l>
+               <l>Whilſt we ſecure and thoughtleſs wanton laid</l>
+               <l>Basking beneath the Tutelary ſhade:</l>
+               <l>No danger cou'd approach the Manſion there</l>
+               <l>Curſt Envy ſnarld, but came not near.</l>
+               <l>Thy aw a Terror on thy Foes Impreſt,</l>
+               <l>But to thy Land ſerenity and reſt.</l>
+               <l>Majeſtick ſweetneſs darted from thy Eyes,</l>
+               <l>And all around was Eden and a Paradice.</l>
+               <l>We'l not forget how thy victorious Hand</l>
+               <l>Did guide us to the promis'd Land,</l>
+               <l>And thy ſtupendious conduct ſet us free</l>
+               <l>From Anarchy and ſlavery.</l>
+               <l>Thou liftedſt up thy mighty arm,</l>
+               <l>And didſt ſound forth the loud Alarm,</l>
+               <l>Thou calm'dſt th' unruly Boiſterous Seas,</l>
+               <l>And propheſi'd us Halſion days,</l>
+               <l>And ſhow'd us all behind Tranquillity and Eaſe.</l>
+            </lg>
+            <lg>
+               <l>Great Monarch no, we'l nere forget the day,</l>
+               <l>When thou our <hi>Moſes</hi> leadſt the happy way;</l>
+               <l>Thou leadſt a moody murmuring Crew,</l>
+               <l>The Crime in them was great but not in you:</l>
+               <l>Thou like the mighty Patriarch view'd</l>
+               <l>With pity the Impeſtuous multitude,</l>
+               <l>As mild as that great man, as meek, as good,</l>
+               <l>As eaſy to remit, averſe from blood,</l>
+               <l>And in the Breach to ſtem their ruin ſtood.</l>
+               <pb n="6" facs="tcp:62431:5"/>
+               <l>What did they want in all thy peaceful Reign?</l>
+               <l>Who ſu'd for Juſtice to thy Throne in vain?</l>
+               <l>Thus to repine thy ſway, and treacherouſly complain?</l>
+               <l>How ready thou to eaſe their clamorous griefs,</l>
+               <l>Thou only able to afford relief?</l>
+               <l>And as of old —</l>
+               <l>When angry Heav'n vow'd a revenge to take,</l>
+               <l>For the Rebellious Peoples ſake;</l>
+               <l>Commiſion'd Numerous Deaths were ſcattered there,</l>
+               <l>Invenom'd Fates flew hiſſing throw the air,</l>
+               <l>Their Blaſting Breaths throw every member haſt,</l>
+               <l>The ſuffering crow'd ſink down, and groan their laſt;</l>
+               <l>Some to their pittying Captain fly,</l>
+               <l>He points, and then the ſacred pile they Eye,</l>
+               <l>They ſaw, and ſoon a Miracle was ſhown,</l>
+               <l>Great as the Judgement uſher'd in before,</l>
+               <l>Their pangs and Dying Agonies were gone,</l>
+               <l>And coming eaſe, renewing health reſtores.</l>
+            </lg>
+            <lg>
+               <l>So to thy Throne thy injur'd Subjects crow'd;</l>
+               <l>Thy willing Ear to their complaint is bow'd;</l>
+               <l>They find an eaſy and a quick redreſs,</l>
+               <l>Thee ev'ry Tongue in ev'ry age will bleſs.</l>
+               <l>And all ſuceeding Times ſhall tell</l>
+               <l>Of each repeated Miracle</l>
+               <l>In thy Illuſtrous Chronicle.</l>
+               <l>David nere ſtruggl'd more to Conquer Fate,</l>
+               <l>Nor ſuffer'd more from murmuring Rebels Hate,</l>
+               <l>VVeighty as his was thy too rigid doom,</l>
+               <l>And thou as bravely didſt them overcome,</l>
+               <l>Indulgent Heav'n did either Cauſe eſpouſe,</l>
+               <l>And ſcattered all the fury of your Foes,</l>
+               <l>Throw arms, and noiſie wars, conducted on,</l>
+               <l>From Exile to aſcend a peaceful Throne.</l>
+            </lg>
+            <lg>
+               <l>VVe ſaw Great Soveraign at thy happy Birth</l>
+               <l>A Taper, ſhining to the wondring Earth,</l>
+               <l>The Omen kindl'd on that glorious day,</l>
+               <l>Shone with a bright Meridian Ray,</l>
+               <l>Thy Great begetter ſaw the ſame,</l>
+               <l>He ſaw and bleſt the Rival flame;</l>
+               <pb n="7" facs="tcp:62431:5"/>
+               <l>VVhilſt the ſurpriz'd admiring crow'd</l>
+               <l>To thee and to thy Genius bow'd;</l>
+               <l>VVith Acclamations ſhouting by,</l>
+               <l>And clapping with prophetick Joy:</l>
+               <l>Ah! why cou'd not the partial Star diſpence</l>
+               <l>A more benigne, Calmer Influence;</l>
+               <l>VVhy did it dart ſo little pleaſure down</l>
+               <l>Daſht with a ſad <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>;</l>
+            </lg>
+            <lg>
+               <l>So when the Great Meſſias came,</l>
+               <l>He's uſher'd with a Radiant flame;</l>
+               <l>But ah! the glittering Omen cou'd relate</l>
+               <l>No happier tidings of a future fate,</l>
+               <l>It prov'd the mournful prodigy</l>
+               <l>Of that Created Deity,</l>
+               <l>The Praelude to his coming Miſery.</l>
+               <l>VVe ſaw in thy firſt blooming Age,</l>
+               <l>VVhat e're cou'd all our hopes engage,</l>
+               <l>All that cou'd ſute the Glory of thy name,</l>
+               <l>The baſis for a nobler frame,</l>
+               <l>Seeds in thy princely boſom ſtrove,</l>
+               <l>Compos'd of Virtue, and of ſofter Love.</l>
+            </lg>
+            <lg>
+               <l>So e're ſucceeding times began,</l>
+               <l>Or this vaſt ſtructure for the Creature man,</l>
+               <l>The richer beings in Oblivion lay,</l>
+               <l>Till the Eternal gave the word</l>
+               <l>They with united force accord,</l>
+               <l>And ſhow their mighty pow'r, &amp; ſhow a glorious day.</l>
+            </lg>
+            <lg>
+               <l>Still as thy riper Years go on,</l>
+               <l>Thy Soul ſeems fitter for a Throne,</l>
+               <l>Thoſe Beams which were but ſhadow'd there,</l>
+               <l>Now in compleated Luſter do appear.</l>
+               <l>In thee each virtue had its room,</l>
+               <l>And every grace was to perfection come;</l>
+               <l>Now fit the mighty ſtate to ſway;</l>
+               <l>Born to Command, and others pleas'd to obey.</l>
+            </lg>
+            <lg>
+               <l>Thy darling Country ſaw thee in thy princely prime,</l>
+               <l>They ſaw and bleſt the happy time,</l>
+               <pb n="8" facs="tcp:62431:6"/>
+               <l>And with a joyful bodeing ſmile,</l>
+               <l>Own'd thee the great <hi>Palladium</hi> of the Iſle.</l>
+               <l>Mankinds Delight and Heav'ns care.</l>
+               <l>Both in thy Royal Perſon ſhare.</l>
+               <l>Ye pow'rs, why did ye not remove</l>
+               <l>Impending ſorrow from the man ye Love?</l>
+               <l>Why did ye crow'd ſo many perils on,</l>
+               <l>To check his paſſage to the Crown?</l>
+               <l>Throw arms and blood ye pointed out the Day,</l>
+               <l>And at the dreadful Goal the Empire lay.</l>
+               <l>We ſaw with what a bravery of Soul,</l>
+               <l>Thou threatning danger didſt control,</l>
+               <l>Reſolv'd, and how unmov'd thou didſt appear,</l>
+               <l>Untaught the little vulgar vice to fear.</l>
+               <l>The Dread of Death could never make thee yield,</l>
+               <l>Nor all the Terrors of an armed field.</l>
+            </lg>
+            <lg>
+               <l>Bold in extreams was thy great courage ſhown,</l>
+               <l>Where fortune call'd, ſtill ruſhing on,</l>
+               <l>Yet with pathetick grief thou view'd</l>
+               <l>The madneſs of the ungovern'd multitude;</l>
+               <l>Fierce to their woful ruin bent,</l>
+               <l>To ſhake and batter down the Government:</l>
+               <l>Thy Country bleeding by thy pittying ſide,</l>
+               <l>Oft did thy Sympathetick breaſt divide;</l>
+               <l>For every conqueſt which your arms did gain</l>
+               <l>Still added to the general pain;</l>
+               <l>Still ting'd with native gore the purpl'd Croſs;</l>
+               <l>The Victor Triumph't in the Kingdoms Loſs.</l>
+               <l>But now the Tragick Scene begins,</l>
+               <l>The woful Tryal is diſclos'd within;</l>
+               <l>With what regret did thy unwilling Eyes,</l>
+               <l>View thy great Fathers Sacrifice?</l>
+               <l>That Spirit, that fate cou'd never bow,</l>
+               <l>Bow'd at that bold preſumptuous blow,</l>
+               <l>Thou ſigh'd at the unnatural doom,</l>
+               <l>And with exceſs of Sorrow was ſtruck dumb,</l>
+               <l>But here we'l let the Curtain down,</l>
+               <l>And ſcan thy vaſt proportion'd miſery by our own.</l>
+               <pb n="9" facs="tcp:62431:6"/>
+               <l>Thus Heav'n permitted this Good King to fall</l>
+               <l>An Expiation to attone for all;</l>
+               <l>He fell the ſacred Martyr of his Reign,</l>
+               <l>And acted his great Saviours Paſſion o're again.</l>
+               <l>Go dying Prince to higher Empires go,</l>
+               <l>But yet Reſpect thy Royal Pledge below;</l>
+               <l>Thy Guardian Angel ſend him down</l>
+               <l>T' attend his Progreſs to the Crown,</l>
+               <l>Oh! Let a double portion on him fall,</l>
+               <l>And he exceed his great Original.</l>
+            </lg>
+            <lg>
+               <l>Its done, and every God look't down from thence,</l>
+               <l>They pittying ſaw, and lov'd the ſuffring Prince,</l>
+               <l>Yea ev'ry petty Deity's concern'd,</l>
+               <l>And for th' afflicted Soveraign yern'd.</l>
+            </lg>
+            <lg>
+               <l>They ſaw how the confuſed Kingdom lay,</l>
+               <l>To the devouring Sword a wounded prey;</l>
+               <l>With monſtrous Crimes polluted o're,</l>
+               <l>Stain'd with a Royal Martyrs Gore,</l>
+               <l>And God-like <hi>CHARLES</hi> muſt the relapſe reſtore.</l>
+               <l>Its he the Soveraign Balſam muſt apply,</l>
+               <l>With the return of Baniſht Majeſty.</l>
+               <l>They lead the Royal Off-ſpring on,</l>
+               <l>To fill his great Fore-Fathers Throne:</l>
+               <l>(In ſpite of all that Hell cou'd do,</l>
+               <l>And the Religious Rebels too,)</l>
+               <l>And ſhew their mighty pow'r on things below.</l>
+               <l>See where the drooping Monarch lies,</l>
+               <l>Ev'n drown'd with deluges of Sighs,</l>
+               <l>Not for the great Miſcarriage of his own,</l>
+               <l>But that his Fathers Fortune's gone.</l>
+               <l>That his Majeſtick Soul was took away,</l>
+               <l>To Sacrilegious Hands a prey;</l>
+               <l>When lo! an awful ſhade appears,</l>
+               <l>And whiſper'd in his liſtning Ear;</l>
+               <l>'Ariſe dejected Prince ariſe,</l>
+               <l>'See where thy beckening Fortune flies,</l>
+               <l>'Scorn all their little rage and hate,</l>
+               <l>'And triumph o're oppoſing Fate;</l>
+               <pb n="10" facs="tcp:62431:7"/>
+               <l>'Where Fame and Glory call, begone</l>
+               <l>'Revenge, revenge, and mount the Throne.</l>
+               <l>The ſignal ſtrait, the Sighing Prince receiv'd,</l>
+               <l>He heard and with an Ominous Joy believ'd,</l>
+               <l>He ſaw in what extreams his Fortune lay,</l>
+               <l>His Valour muſt direct and cut the way.</l>
+               <l>Dull eaſie ſloth cou'd nere retrieve his Fate,</l>
+               <l>He muſt o'recome or ſink beneath the State.</l>
+            </lg>
+            <lg>
+               <l>Alas! what cou'd his pittying Tears avail;</l>
+               <l>To flying Fate there's no repeal.</l>
+               <l>His helpleſs Eyes cou'd do no more,</l>
+               <l>Nor his revolted Cauſe reſtore.</l>
+            </lg>
+            <lg>
+               <l>Tears but a weak Redemption can afford</l>
+               <l>Where Intereſt ſways the dreadful Sword.</l>
+               <l>But Heav'n does now the Royal Cauſe eſpouſe</l>
+               <l>Againſt the pointed fury of his Foes,</l>
+               <l>Againſt the furies that Beſiege the Throne,</l>
+               <l>And all the pious Cheats to pull it down.</l>
+               <l>Succeſſive Miracles each day appear,</l>
+               <l>Each Month produceth wondrous Callender.</l>
+               <l>So once when all the numerous Tribes were free,</l>
+               <l>From the <hi>Egyptians</hi> Yoke and Slavery.</l>
+               <l>Kind Heav'n its high puiſſant pow'r did ſhow</l>
+               <l>To all their crowding Legions below,</l>
+               <l>Preſerv'd by the Almighty's Hand,</l>
+               <l>Conducted ſtrangely to the Promis'd Land:</l>
+            </lg>
+            <lg>
+               <l>We'l think great Soveraign on that glorious day,</l>
+               <l>Where Heav'n did firſt its early care diſplay,</l>
+               <l>VVhen its immediate Hand ſecur'd thy Fate</l>
+               <l>From threatening Spears, and dangerous Rebels hate,</l>
+               <l>Ah! Let the happy<note n="*" place="margin">Worceſter <hi>Fight.</hi>
+                  </note> place receive a Name</l>
+               <l>Ith Annals of Eternal Fame.</l>
+               <l>VVith what a bold reſolve thy Foes appear'd.</l>
+               <l>How far againſt your Royal ſelf they dar'd,</l>
+               <l>How fierce how eager to devour,</l>
+               <l>And wanton in thy ſacred Gore.</l>
+               <l>VVhilſt thou in Perſon ſally'd to the Field,</l>
+               <l>Learn'd bravely to Command, untaught to yield,</l>
+               <pb n="11" facs="tcp:62431:7"/>
+               <l>But ah! thy Arms ſucceſleſs Fortunes found,</l>
+               <l>Nor was thy rightful Cauſe with Conqueſt Crown'd</l>
+               <l>Heav'n ſtill delay'd the Joyful end to ſhow</l>
+               <l>VVhat farther its Almighty Hand cou'd do.</l>
+            </lg>
+            <lg>
+               <l>After that bleſt eſcape befel,</l>
+               <l>Each ſtep produc'd a Miracle,</l>
+               <l>VVe'l nere forget the next ſucceeding deed,</l>
+               <l>VVhen thy Majeſtick Royalty lay hid;</l>
+            </lg>
+            <lg>
+               <l>Lurking ſecurely now</l>
+               <l>VVithin the narrow confines of a Bough,</l>
+               <l>Three Kingdoms Monarch there ſat perching on,</l>
+               <l>And for a Blooming Oak exchang'd his Throne.</l>
+               <l>So at our ſacred Saviours Birth,</l>
+               <l>VVhen he Deſcended to the Earth,</l>
+               <l>His Entertainment's poor and ſtrange,</l>
+               <l>A Stable, and a Manger, and a Grange,</l>
+               <l>Methinks I ſee Coeleſtial Quires appear</l>
+               <l>To Guard thy Royal Perſon there,</l>
+               <l>From all their Bleſt abodes they flock to thee,</l>
+               <l>And hover round the pious Tree,</l>
+               <l>A Troop full able to oppoſe</l>
+               <l>The pow'r of thy Rebellious Foes;</l>
+               <l>A Troop reſolv'd, and bravely bold</l>
+               <l>Not to be brib'd with Mercenary Gold.</l>
+            </lg>
+            <lg>
+               <l>And next we'l caſt an Eye</l>
+               <l>On th' Agents of thy great delivery,</l>
+               <l>Whom Heav'n the wondrous Inſtruments did make</l>
+               <l>To manage this Important Stake,</l>
+               <l>And for thy high ſecurity engage</l>
+               <l>Mechanick ſervile Millers of the Age,</l>
+               <l>Men whom we'd think wou'd glittering heaps adore</l>
+               <l>For pence and food was all their ſtore.</l>
+               <l>
+                  <note place="margin">1000 <hi>l.</hi> Price.</note> Yet thy neglected Price lay by</l>
+               <l>They ſaw it with an Eagles Eye,</l>
+               <l>And ſcorn'd their Soveraign to betray</l>
+               <l>For bribing Sums of gilded Clay.</l>
+               <l>The great <hi>Meſſias</hi> thus was known</l>
+               <l>To drowzy Swains alone</l>
+               <pb n="12" facs="tcp:62431:8" rendition="simple:additions"/>
+               <l>Supinely they in ſlumbers lay,</l>
+               <l>Their browzing Cattel round 'em play,</l>
+               <l>When the Coeleſtial Meſſage's given</l>
+               <l>By all the tuneful Quire of Heaven.<note place="margin">
+                     <hi>M.</hi> Jane Love.</note>
+               </l>
+               <l>A ſofter Female next thy Guardian's made</l>
+               <l>A tender but a truſty Aid:</l>
+               <l>The pow'r ſhe had, her pious care did ſhow</l>
+               <l>A Loyal Subject, and thy Buckler too.</l>
+               <l>She o're your Soveraignty did Sway</l>
+               <l>Her's wiſely to command, and yours t' obey</l>
+               <l>The little Arts your Gentle Hand-maid try'd,</l>
+               <l>Secur'd your intereſt on the ſafer ſide,</l>
+               <l>Conducting ſtill her charge diſcreetly on</l>
+               <l>From lonely ruſtick. Shades to fill a Throne.</l>
+               <l>So <hi>Michaels</hi> Noble Stratagem defeats</l>
+               <l>Her Fathers direful rage and froward hates,</l>
+               <l>
+                  <hi>David</hi> by her, eſcapes untimely end,</l>
+               <l>She acted as a Guardian and a Friend.</l>
+               <l>But what returns can we repay to thee,</l>
+               <l>Thou Patroneſs of Majeſty,</l>
+               <l>Thou happy Pillar of the tottering Land</l>
+               <l>Preſerv'd by a Womans Hand?</l>
+               <l>We'l now tranſmit to future days thy Fame,</l>
+               <l>And liſping Babes ſhall ſtammer forth thy Name.</l>
+               <l>We'l not forget your hazards and your toil</l>
+               <l>Throw all the Progreſs of your Native Iſle.</l>
+            </lg>
+            <lg>
+               <l>Great King, we'l nere forget th' alarms and cares</l>
+               <l>Thy nightly Watches, and thy hourly fears,</l>
+               <l>Each cautious ſtep, each bluſhing quick ſurprize</l>
+               <l>Thy humble Office, and thy poor diſguiſe,</l>
+               <l>Which thou the Pageants of thy Fortune bore</l>
+               <l>Till thy Arrival at the Gallick Shore,</l>
+               <l>A Providence in all, and God all o're.</l>
+            </lg>
+            <lg>
+               <l>Unhappy Prince, thy Baniſh't Perſon's gone</l>
+               <l>In exile, and forſaken, and alone.</l>
+               <l>All that thy pious Loyal Friends cou'd do,</l>
+               <l>Was unavailing grief to ſhow.</l>
+               <l>Their Prayers and pittying ſighs they'd ſend</l>
+               <l>To help thy ſorrows to an end.</l>
+               <pb n="13" facs="tcp:62431:8"/>
+               <l>They cou'd no more but calmly wait</l>
+               <l>The bleſt return of ſmiling Fate.</l>
+            </lg>
+            <lg>
+               <l>No ſooner hadſt thou left the noifie Shore,</l>
+               <l>As if the Genius of the Iſle had gone;</l>
+               <l>Thy Foes ſeem more confuſed than before,</l>
+               <l>And by their Fears contrive thy bleſt return.</l>
+               <l>Dread of thy rightful Claim excited aw,</l>
+               <l>Their different Intereſts to one Union brought,</l>
+               <l>But now remote divided Ends they draw,</l>
+               <l>And each to triumph o're the other ſought.</l>
+               <l>So when the giddy Lab'ring World began</l>
+               <l>Their high proportion'd Frame to rear,</l>
+               <l>To rival Heav'n, and threat the Air,</l>
+               <l>They're muſter'd o're the liſted Plain;</l>
+               <l>Confuſion ſtraight, the mighty Project ſtay'd;</l>
+               <l>In vain the ſweating Fools aſſay'd</l>
+               <l>To make a period of their Fabrick there.</l>
+               <l>The happy time is now at hand</l>
+               <l>To bring thee to thy Promis'd Land,</l>
+               <l>Thy toilſom Race is well nigh run,</l>
+               <l>Thy ſorrows to a Center come;</l>
+               <l>Thou'ſt finiſht all thy ſuffring Doom;</l>
+               <l>And wonders now muſt end what Miracles begun.</l>
+               <l>We'l think with Joy on that auſpicious Hour</l>
+               <l>When pardon'd Rebels crowd to ſee thee Land,</l>
+               <l>And thicken on the Neighbouring Strand;</l>
+               <l>Thy Reſtauration overthrew their Pow'r</l>
+               <l>Their <hi>Hydra</hi>'s at the bright appearance die;</l>
+               <l>All their Romantick Idols tumbl'd down</l>
+               <l>At thy approach to mount the Throne,</l>
+               <l>Like <hi>Dagon</hi> when the Sacred Ark came nigh.</l>
+               <l>Thy dawning luſtre did appear</l>
+               <l>Like <hi>Phebus</hi> when he mounts the Sphere,</l>
+               <l>Diſpenſing glories as we riſe;</l>
+               <l>And with new Vigour kindling all the Skies;</l>
+               <l>Thou now aſcends the Throne,</l>
+               <l>Not like a <hi>Nero</hi> or <hi>Domitian,</hi>
+               </l>
+               <l>But like <hi>Auguſtus</hi> Great and Wiſe,</l>
+               <l>Forgiving and forgetting Injuries.</l>
+               <pb n="14" facs="tcp:62431:9"/>
+               <l>Thy pious Subjects bleſs the day,</l>
+               <l>And for thy long continuance pray.</l>
+               <l>The Iſles with Acclamations Ring,</l>
+               <l>Long Live, Long Live the King.</l>
+               <l>Oh! Happy if their happineſs they prize,</l>
+               <l>Or knew but where their Intereſt lies.</l>
+               <l>No Seas of Natives-gore thy ſteps oppoſe;</l>
+               <l>Nor ſtalks thou o're thy ſlaughtr'd Foes:</l>
+               <l>Without one ſtroak thou mounts the Seat,</l>
+               <l>The mighty, mighty work of Fate.</l>
+            </lg>
+            <lg>
+               <l>What hardn'd Rebel dares deny</l>
+               <l>The preſence of a Deity</l>
+               <l>Through all thy weighty trouble's on</l>
+               <l>This laſt Miracle, thy Reſtauration!</l>
+               <l>The Preſidents before had been but Chance,</l>
+               <l>Where Hazard and thy Fortune ſtrove;</l>
+               <l>This does all prejudice remove,</l>
+               <l>And their confirmed Faiths advance,</l>
+               <l>Like the great buſineſs of the Reſurrection.</l>
+               <l>But ſhou'd I mention on</l>
+               <l>Each yearly wonder done</l>
+               <l>In the long ſeries of thy Peaceful Reign,</l>
+               <l>My Lines wou'd ſwell</l>
+               <l>To an expanſive Chronicle;</l>
+               <l>My Muſe too feeble to rehearſe</l>
+               <l>Such mighty things in humble verſe:</l>
+               <l>Too weak my numbers, and too low my ſtrain.</l>
+               <l>But future ages ſhall record the ſame.</l>
+               <l>Thou It be their Wonder, and their Theme</l>
+               <l>The Subject of ſucceeding days,</l>
+               <l>With admiration heard, and told with praiſe.</l>
+               <l>Go happy Prince to Courting Crowns above;</l>
+               <l>The Gods delight, and Peoples Love.</l>
+               <l>Oh! Cou'd we add unto thy greatneſs there,</l>
+               <l>Since there's no hopes of a retrieve,</l>
+               <l>We'd in thy ſacred ſelf believe,</l>
+               <l>And change our bleſſings to a form of Pray'r;</l>
+               <l>But its not worſhip thou demands,</l>
+               <l>No ſuch returns from our Officious Hands,</l>
+               <l>Love to thy ſecond ſelf below</l>
+               <l>Is all thou'd wiſh thy Subjects do.</l>
+               <pb n="15" facs="tcp:62431:9"/>
+               <l>That eaſy Tribute will we pay,</l>
+               <l>That pious ſubſidy</l>
+               <l>Much for his own deſerving ſake, and much for thee,</l>
+               <l>That, for the Wonders of thy peaceful Reign,</l>
+               <l>And all the bleſſings that we reap thereby,</l>
+               <l>Our Freedom and our Property,</l>
+               <l>Which thou our Soveraign didſt maintain,</l>
+               <l>That, for th' Intolerable dying pain</l>
+               <l>Thy ſuffring Perſon did ſuſtain</l>
+               <l>By the ſevere Phyſicians Hands apply'd,</l>
+               <l>To ſtop the Torrent of thy Fate, and yet thou dy'd:</l>
+               <l>What's more prevailing ſtill to move</l>
+               <l>Thy goodneſs and thy grace,</l>
+               <l>Thy Clemency and Love?</l>
+               <l>We'l love him for the glory of his race:</l>
+               <l>In him thy Copy'd Virtues ſhine.</l>
+               <l>He muſt be merciful and good,</l>
+               <l>He's ſtampt with the High <hi>Stuarts</hi> Blood,</l>
+               <l>And all the In-born greatneſs of that Line.</l>
+               <l>An Exile with Thy ſelf he mourn'd</l>
+               <l>With Thee afflicted, and with Thee return'd,</l>
+               <l>Born on the ſame High Tide of Fate,</l>
+               <l>And bore as much from Factions Hate;</l>
+               <l>He's loaded with Indignity,</l>
+               <l>Already Martyr'd in<note n="*" place="margin">His Picture in <hi>Guild-Hall,</hi> cut from the Legs downward undiſ<g ref="char:EOLhyphen"/>covered.</note> Effigie.</l>
+               <l>Oh! Blaſt the Arm that dar'd that Impious Blow,</l>
+               <l>Let Heav'n reward him with a Vengeance mete,</l>
+               <l>Who God's Anointed dar'd t'overthrow;</l>
+               <l>His Head had ſuffer'd where they pierc'd his Feet.</l>
+               <l>A Series of Wonders has been ſhown,</l>
+               <l>Adaequate to thy mighty own,</l>
+               <l>To fix the Royal <hi>James</hi> on <hi>Englands</hi> Throne.</l>
+               <l>Heav'n has ſecur'd him to this Hour</l>
+               <l>By its Almighty Pow'r;</l>
+               <l>The Scepter giv'n Him to ſway,</l>
+               <l>And will compoſe Us to obey.</l>
+               <l>Elſe why did He not ſink beneath the Weight</l>
+               <l>Of all the ponderous Fate</l>
+               <l>That on Him from His Infancy did wait,</l>
+               <l>And all the Ills His Sacred Perſon bore?</l>
+               <l>Can we forget that Memorable Time,</l>
+               <l>That great Eſcape, that glorious Day?</l>
+               <l>Not to Record it, wou'd be judg'd a Crime.</l>
+               <l>What Wonders Heav'n did then perform</l>
+               <l>In that prodigious<note n="*" place="margin">Shipwrackt in his Voyage to <hi>Scotland.</hi>
+                  </note> Storm,</l>
+               <l>And ſafely brought three Kingdoms Hopes away.</l>
+               <l>On diſtant Strands the pitying People ſaw</l>
+               <l>The terror of the thing their vety Souls did aw,</l>
+               <l>The Billows round the Pious <hi>Hero</hi> roar,</l>
+               <l>Rebound and daſh from off the Neighbouring Shore,</l>
+               <l>And every noiſie Rolling Wave</l>
+               <l>Appeared an approaching Grave.</l>
+               <pb n="16" facs="tcp:62431:10"/>
+               <l>When <hi>Heaven</hi> did appear,</l>
+               <l>It muſt be Heav'n, for God was there,</l>
+               <l>And our Anointed future King did ſave.</l>
+               <l>Thy Enemies ſaw, and curſt the timely Fate,</l>
+               <l>This Praelude to thy future State;</l>
+               <l>This as a Pledge did every God engage,</l>
+               <l>To make Thee <hi>Heroe</hi> of an Age;</l>
+               <l>Thy Foes now to thy Genius yield,</l>
+               <l>For <hi>Caeſar</hi>'s Fortune's writ upon thy Shield.</l>
+               <l>Aſcend thy Great Fore-father's Throne,</l>
+               <l>And make us happy by thy Sway;</l>
+               <l>What Joyful Ages ſhall we ſee</l>
+               <l>Entail'd upon Poſterity!</l>
+               <l>What Actions by thy Royal Conduct done!</l>
+               <l>Prophetick Hopes appear on ev'ry brow,</l>
+               <l>Where e're thou points, they'l go,</l>
+               <l>Their Arms ſhall diſtant Countries know;</l>
+               <l>New Lawrels ſhall their Conqueſts bring;</l>
+               <l>It's writ in Heav'ns Myſterious Book,</l>
+               <l>Its Fate, for every Deity has ſpoke,</l>
+               <l>That Triumphs ſhall attend the King.</l>
+               <l>The Belgick Slaves no more ſhall boaſt</l>
+               <l>Of <hi>England</hi>'s Navy fir'd and loſt;</l>
+               <l>That Stratagem pulls down</l>
+               <l>Revenge from thy unſhaken Throne.</l>
+               <l>By thy Command once more we'l meet,</l>
+               <l>And diſſipate their Treacherous Fleet;</l>
+               <l>Inſpir'd by Thee, before our Arms they'l fall.</l>
+               <l>Nor dare the Rival o're the Main,</l>
+               <l>Affronting their Great Soveraign,</l>
+               <l>We'l emulate our Conquering Admiral.</l>
+               <l>Let <hi>France</hi> and <hi>Spain</hi> unto Thy Genius ſtoop,</l>
+               <l>That Cauſe muſt Conquer which thou doſt eſpouſe;</l>
+               <l>Thy Friendſhip muſt ſupport and boy 'em up,</l>
+               <l>And Leagues ſecure them from proclaimed Foes.</l>
+               <l>Thy Arms and Fame to higher Aims ſhall run,</l>
+               <l>And there New Garlands muſt be won.</l>
+               <l>Thy Annals with thy Acts ſhall ſwell,</l>
+               <l>When drooping <hi>Auſtria</hi> does intreat thy Sword,</l>
+               <l>A ſpeedy Aid t'afford.</l>
+               <l>'Againſt th' incroaching Infidel.</l>
+               <l>Thy Subjects Heats Thy Mildneſs will o'rethrow,</l>
+               <l>They may be happy, if they will be ſo.</l>
+               <l>Let not the Factions Arms aſpire,</l>
+               <l>Nor the Unthinking Lured Croud,</l>
+               <l>To raiſe a Rival's Fortune higher</l>
+               <l>Than his meer Birth allow'd.</l>
+               <l>Let but their Reſtiff Boſoms pay</l>
+               <l>Submiſſion to thy Regal Sway;</l>
+               <l>For ſure they need but ſquare the Line</l>
+               <l>Of Faith and Everlaſting Loyalty by Thine.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
